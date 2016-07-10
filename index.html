@@ -42,117 +42,13 @@ a:link {
         <h2>Some things were not meant to be seen</h2>
         
         <div id="button">
-        <a href='javascript: function Gosling(i, g) {
-    this.ratio = i, this.imageurl = g
-}
-
-function Randomize(i) {
-    return Math.floor(Math.random() * i.length)
-}
-
-function imageRatio(i) {
-    var g = i.height / i.width;
-    return g > 1 ? "vertical" : 1 === g ? "square" : 1 > g ? "horizontal" : void 0
-}
-var getGosling = {
-        init: function(i) {
-            this.myGosling = i
-        },
-        horizontal: function() {
-            return this.myGosling.filter(function(i) {
-                return "horizontal" === i.ratio
-            })
-        },
-        vertical: function() {
-            return this.myGosling.filter(function(i) {
-                return "vertical" === i.ratio
-            })
-        },
-        square: function() {
-            return this.myGosling.filter(function(i) {
-                return "square" === i.ratio
-            })
-        }
-    },
-    myGosling = [
-
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-1.png"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-2.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-3.jpg"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-4.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-5.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-6.jpg"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-7.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-8.png"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-9.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-10.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-11.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-12.png"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-13.jpg"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-14.png"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-15.gif"),
-        new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-16.png"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-1.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-3.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-4.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-5.gif"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-6.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-7.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-8.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-9.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-10.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-11.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-12.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-13.png"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-14.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-15.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-16.gif"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-17.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-18.jpg"),
-        new Gosling("vertical", "http://heygirl.io/img/gosling-vert-19.png"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-1.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-2.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-3.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-4.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-5.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-6.png"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-7.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-8.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-9.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-10.gif"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-11.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-12.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-13.jpg"),
-        new Gosling("square", "http://heygirl.io/img/gosling-square-14.png")
-    ];
-! function(i) {
-    getGosling.init(myGosling);
-    for (var g = i.getElementsByTagName("img"), o = g.length, n = 0; o > n; n++) {
-        var l = imageRatio(g[n]),
-            t = Randomize(getGosling[l]()),
-            e = getGosling[l]()[t];
-        g[n].src = e.imageurl
-    }
-}(document);'>
+        <a href='function Drumpf(r,t){this.ratio=r,this.imageurl=t}function Randomize(r){return Math.floor(Math.random()*r.length)}function imageRatio(r){var t=r.height/r.width;return t>1?"vertical":1===t?"square":1>t?"horizontal":void 0}var getDrumpf={init:function(r){this.myDrumpf=r},horizontal:function(){return this.myDrumpf.filter(function(r){return"horizontal"===r.ratio})},vertical:function(){return this.myDrumpf.filter(function(r){return"vertical"===r.ratio})},square:function(){return this.myDrumpf.filter(function(r){return"square"===r.ratio})}},myDrumpf=[new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-1.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-2.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-3.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-4.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-5.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-6.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-7.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-8.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-9.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-10.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-11.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-12.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-13.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-14.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-16.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-19.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-20.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-23.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-1.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-2.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-3.gif"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-4.png"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-5.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-7.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-9.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-11.png"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-1.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-2.gif"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-4.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-5.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-7.jpg")];!function(r){getDrumpf.init(myDrumpf);for(var t=r.getElementsByTagName("img"),e=t.length,m=0;e>m;m++){var u=imageRatio(t[m]),p=Randomize(getDrumpf[u]()),a=getDrumpf[u]()[p];t[m].src=a.imageurl}}(document);'>
         Horror
         </a>
         </div>
         </br>
 
         Try it out: <a href="http://www.nytimes.com">The New York Times (click and scroll down the page)</a>
-
-</br>
-<h1>Kitty</h1>
-        <h2>They aren't as innocent as they look</h2>
-
-		<div id="button2">
-        <a href='javascript:(function()%7Bvar c%3D%5B%7Bre:new RegExp("%5C%5Cbkitten%5C%5Cb","gmi"),subst:"monster"%7D,%7Bre:new RegExp("%5C%5Cbkittens%5C%5Cb","gmi"),subst:"monsters"%7D%5D%3Bfunction a(e,g)%7Bvar d,f%3Bif("undefined"%3D%3D%3Dtypeof e.nodeName)%7Breturn%7Df%3De.nodeName.toLowerCase()%3Bif(-1!%3D%3D%5B"script","style"%5D.indexOf(f))%7Breturn%7Dif(e.nodeType%3D%3D%3DNode.ELEMENT_NODE)%7Bif(e%3De.firstChild)%7Bdo%7Bd%3De.nextSibling%3Ba(e,g)%7Dwhile(e%3Dd)%7D%7Delse%7Bif(e.nodeType%3D%3D%3DNode.TEXT_NODE)%7Be.data%3Dg(e.data)%7D%7D%7Dfunction b(d)%7Bif(typeof d%3D%3D%3D"undefined")%7Breturn%7Dfor(i in c)%7Bo%3Dc%5Bi%5D%3Bd%3Dd.replace(o.re,o.subst)%7Dreturn d%7Ddocument.title%3Db(document.title)%3Ba(document.body,b)%7D)()%3B'>
-        Kitty
-        </a>
-        </div>
-
-</br>
-Try it out: <a href="https://en.wikipedia.org/wiki/Kitten">Wikipedia: Kittens</a>
 
         </body>
         </html>

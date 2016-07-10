@@ -1,4 +1,4 @@
-javascript: function Gosling(i, g) {
+javascript: function Drumpf(i, g) {
     this.ratio = i, this.imageurl = g
 }
 
@@ -10,68 +10,69 @@ function imageRatio(i) {
     var g = i.height / i.width;
     return g > 1 ? "vertical" : 1 === g ? "square" : 1 > g ? "horizontal" : void 0
 }
-var getGosling = {
+var getDrumpf = {
         init: function(i) {
-            this.myGosling = i
+            this.myDrumpf = i
         },
         horizontal: function() {
-            return this.myGosling.filter(function(i) {
+            return this.myDrumpf.filter(function(i) {
                 return "horizontal" === i.ratio
             })
         },
         vertical: function() {
-            return this.myGosling.filter(function(i) {
+            return this.myDrumpf.filter(function(i) {
                 return "vertical" === i.ratio
             })
         },
         square: function() {
-            return this.myGosling.filter(function(i) {
+            return this.myDrumpf.filter(function(i) {
                 return "square" === i.ratio
             })
         }
     },
-    myGosling = [
+    myDrumpf = [
 
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-1.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-2.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-3.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-4.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-5.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-6.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-7.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-8.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-9.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-10.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-11.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-12.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-13.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-14.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-16.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-19.gif"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-20.jpg"),
-        new Gosling("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-23.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-1.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-2.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-3.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-4.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-5.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-6.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-7.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-8.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-9.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-10.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-11.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-12.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-13.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-14.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-16.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-19.gif"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-20.jpg"),
+        new Drumpf("horizontal", "https://jethaus.com/dev/drumpf/images/drumpf-horizontal-23.jpg"),
 
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-1.jpg"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-2.jpg"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-3.gif"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-4.png"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-5.jpg"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-7.jpg"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-9.jpg"),
-        new Gosling("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-11.png"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-1.jpg"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-2.jpg"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-3.gif"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-4.png"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-5.jpg"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-7.jpg"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-9.jpg"),
+        new Drumpf("vertical", "https://jethaus.com/dev/drumpf/images/drumpf-vertical-11.png"),
 
-        new Gosling("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-1.jpg"),
-        new Gosling("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-2.gif"),
-        new Gosling("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-4.jpg"),
-        new Gosling("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-5.jpg"),
-        new Gosling("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-7.jpg")
+        new Drumpf("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-1.jpg"),
+        new Drumpf("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-2.gif"),
+        new Drumpf("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-4.jpg"),
+        new Drumpf("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-5.jpg"),
+        new Drumpf("square", "https://jethaus.com/dev/drumpf/images/drumpf-square-7.jpg")
     ];
+
 ! function(i) {
-    getGosling.init(myGosling);
+    getDrumpf.init(myDrumpf);
     for (var g = i.getElementsByTagName("img"), o = g.length, n = 0; o > n; n++) {
         var l = imageRatio(g[n]),
-            t = Randomize(getGosling[l]()),
-            e = getGosling[l]()[t];
+            t = Randomize(getDrumpf[l]()),
+            e = getDrumpf[l]()[t];
         g[n].src = e.imageurl
     }
 }(document);
