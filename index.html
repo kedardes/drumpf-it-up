@@ -5,50 +5,47 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <head>
-<style type="text/css">
-	
-	#button { 
-    background-color: #ffa500;
-    border: none;
-    font-family: 'Verdana', sans-serif;
-    font-size: 1em;
-    padding: 9px;
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    width: 90px;
-}
+    <meta charset="utf-8">
+    <meta name="description" content="Drumpf it Up">
+    <meta name="author" content="Kedar Deshpande">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-#button2 { 
-    background-color: #ffb6c1;
-    border: none;
-    font-family: 'Verdana', sans-serif;
-    font-size: 1em;
-    padding: 9px;
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    width: 90px;
-}
+    <title>Drumpf it Up</title>
 
-a:link {
-    color: red;
-}
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
 
-</style>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-<h1>Nightmare</h1>
-        <h2>Some things were not meant to be seen</h2>
-        
-        <div id="button">
-        <a href='function Drumpf(r,t){this.ratio=r,this.imageurl=t}function Randomize(r){return Math.floor(Math.random()*r.length)}function imageRatio(r){var t=r.height/r.width;return t>1?"vertical":1===t?"square":1>t?"horizontal":void 0}var getDrumpf={init:function(r){this.myDrumpf=r},horizontal:function(){return this.myDrumpf.filter(function(r){return"horizontal"===r.ratio})},vertical:function(){return this.myDrumpf.filter(function(r){return"vertical"===r.ratio})},square:function(){return this.myDrumpf.filter(function(r){return"square"===r.ratio})}},myDrumpf=[new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-1.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-2.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-3.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-4.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-5.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-6.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-7.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-8.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-9.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-10.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-11.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-12.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-13.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-14.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-16.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-19.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-20.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-23.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-1.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-2.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-3.gif"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-4.png"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-5.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-7.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-9.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-11.png"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-1.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-2.gif"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-4.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-5.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-7.jpg")];!function(r){getDrumpf.init(myDrumpf);for(var t=r.getElementsByTagName("img"),e=t.length,m=0;e>m;m++){var u=imageRatio(t[m]),p=Randomize(getDrumpf[u]()),a=getDrumpf[u]()[p];t[m].src=a.imageurl}}(document);'>
-        Horror
-        </a>
-        </div>
-        </br>
+<div class="content">
 
-        Try it out: <a href="http://www.nytimes.com">The New York Times (click and scroll down the page)</a>
+    <h1>The Drumpf it Up Button</h1>
 
-        </body>
-        </html>
+    <div id="button">
+        <a href='javascript: function Drumpf(r,t){this.ratio=r,this.imageurl=t}function Randomize(r){return Math.floor(Math.random()*r.length)}function imageRatio(r){var t=r.height/r.width;return t>1?"vertical":1===t?"square":1>t?"horizontal":void 0}var getDrumpf={init:function(r){this.myDrumpf=r},horizontal:function(){return this.myDrumpf.filter(function(r){return"horizontal"===r.ratio})},vertical:function(){return this.myDrumpf.filter(function(r){return"vertical"===r.ratio})},square:function(){return this.myDrumpf.filter(function(r){return"square"===r.ratio})}},myDrumpf=[new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-1.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-2.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-3.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-4.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-5.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-6.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-7.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-8.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-9.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-10.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-11.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-12.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-13.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-14.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-16.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-19.gif"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-20.jpg"),new Drumpf("horizontal","https://jethaus.com/dev/drumpf/images/drumpf-horizontal-23.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-1.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-2.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-3.gif"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-4.png"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-5.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-7.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-9.jpg"),new Drumpf("vertical","https://jethaus.com/dev/drumpf/images/drumpf-vertical-11.png"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-1.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-2.gif"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-4.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-5.jpg"),new Drumpf("square","https://jethaus.com/dev/drumpf/images/drumpf-square-7.jpg")];!function(r){getDrumpf.init(myDrumpf);for(var t=r.getElementsByTagName("img"),e=t.length,m=0;e>m;m++){var u=imageRatio(t[m]),p=Randomize(getDrumpf[u]()),a=getDrumpf[u]()[p];t[m].src=a.imageurl}}(document);'>Drumpf it Up</a>
+    </div>
+
+    <h2>Try it out on: <a href="http://www.nytimes.com">The New York Times</a></h2>
+
+</div>
+
+<footer>
+    <h3>Created by <a target="_blank" href="http://twitter.com/kedar" alt="Kedar Deshpande"> Kedar Deshpande</a> heavily borrowing code from <a target="_blank" href="http://twitter.com/keccers" alt="Katherine Champagne"> Katherine Champagne</a>.</h3>
+</footer>        
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+
+<!--
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+1
+</body>
+</html>
