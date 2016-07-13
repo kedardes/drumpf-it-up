@@ -145,7 +145,7 @@ a:hover {
 }
 
 footer, .content:after {
-    height: 100px;
+    height: 100%;
 }
 
 footer {
